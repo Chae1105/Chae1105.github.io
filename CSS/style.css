@@ -51,10 +51,10 @@ body {
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(8, 1fr);
 
-  background-color: rgba(171, 216, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(10px);
 
-  border-radius: 15px;
+  border-radius: 20px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -97,9 +97,9 @@ body {
 
 #greeting {
   margin-top: 0;
-  font-family: 'KyoboHand';
-  font-weight: bold;
-  font-size: 80px;
+  font-weight: 100;
+  font-size: 60px;
+  text-shadow: -5px 0 cornflowerblue, 0 5px cornflowerblue, 5px 0 cornflowerblue, 0 -5px cornflowerblue;
 }
 
 .container {
@@ -122,14 +122,14 @@ body {
 #clock {
   font-size: 95px;
   font-weight: 400;
-  text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.445);
-
+  text-shadow: 8px 8px 5px rgba(43, 64, 102, 0.8);
   margin-top: 10px;
 }
 
 #date {
   font-size: 30px;
   margin-bottom: 0px;
+  text-shadow: 3px 3px 5px rgba(43, 64, 102, 0.8);
 }
 
 .todo {
@@ -200,7 +200,7 @@ body {
   font-size: 30px;
 }
 
-#icon {
+.youtube_video {
   background-color: cornflowerblue;
   border: 6px solid rgba(255, 255, 255, 0.8);
   grid-column: 3 / 4;
@@ -209,7 +209,6 @@ body {
 
 .search {
   background-color: cornflowerblue;
-
   grid-column: 4 / 6;
   grid-row: 1 / 2;
 
@@ -218,7 +217,7 @@ body {
 input {
   background-color: rgba(255, 255, 255, 0.46);
   font-family: 'KyoboHand';
-  font-size: 15px;
+  font-size: 20px;
   color: rgba(0, 0, 0, 0.8);
   border: 5px solid rgba(100, 148, 237, 0.8);
   outline: none;
