@@ -96,7 +96,7 @@ body {
 }
 
 #greeting {
-  margin-top: 10px;
+  margin-top: 0;
   font-family: 'KyoboHand';
   font-weight: bold;
   font-size: 80px;
@@ -240,6 +240,7 @@ button {
   left: 0;
   width: 100vw;
   height: 100vh;
+  border-radius: 0;
   background-position: center center;
   background-size: 100% 100%;
   background-attachment: fixed;
