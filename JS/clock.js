@@ -24,7 +24,7 @@ function getDay(day) {
   let nowDay = "";
   if (day === 0) nowDay = "Sunday";
   else if (day === 1) nowDay = "Monday";
-  else if (day === 3) nowDay = "Tuesday";
+  else if (day === 2) nowDay = "Tuesday";
   else if (day === 3) nowDay = "Wednesday";
   else if (day === 4) nowDay = "Thursday";
   else if (day === 5) nowDay = "Friday";
